@@ -46,7 +46,7 @@ function gen_tree(){
 
 # Put post-build commands here.
 function post_build(){
-	[[ -f install.sh ]] && cp ./insta..sh /tmp/yoink/$name
+	[[ -f install.sh ]] && cp ./install.sh /tmp/yoink/$name
  	gen_tree	
 	# Do not change any more lines.
 	builtin cd /tmp/yoink/$name
