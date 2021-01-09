@@ -1,7 +1,7 @@
 #!/bin/bash
 # Package information
 packager="My Email AT my email DOT com"
-name=yoink-builder
+name=yoink-scripts
 major_version=0
 min_version=1
 rel_version=0 
